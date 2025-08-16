@@ -1,7 +1,7 @@
 # About Me
 
 **Name:** Lorlyn Grace Boiser  
-**Course/Year:** BS Information Technology 3rd Year  
+**Course/Year:** BS Information Systems 3rd Year  
 **Fun Fact:** I can read a whole book for one day and sleep without moving.  
 
 ---
