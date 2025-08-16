@@ -8,4 +8,4 @@
 
 ## Why I Want to Learn Git & GitHub
 
-I want to learn Git and GitHub because i find it interesting. It holds a vital tool for our journey in this course. With them, I can collaborate well with my co-developers without meeting face-to-face. I can also browse ideas from active developers on Github and I can practice my skills and make a good portfolio. 
+I want to learn Git and GitHub because I find it interesting. It holds a vital tool for our journey in this course. With them, I can collaborate well with my co-developers without meeting face-to-face. I can also browse ideas from active developers on Github and I can practice my skills and make a good portfolio. 
