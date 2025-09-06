@@ -1,2 +1,4 @@
 Line 1
 Line 2
+
+Realization: The line 3 got wiped and the HEAD -> main moved to the previous commit which is the line 2
