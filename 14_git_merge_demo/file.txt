@@ -1,1 +1,1 @@
-Realization: After merge, the feature branch joined main but the history showed a merge commit, so it looked like branches came together.
+Realization: After merging, the feature branch joined main but the history showed a merge commit, so it looked like branches came together.
