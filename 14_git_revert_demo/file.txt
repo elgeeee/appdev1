@@ -1,4 +1,4 @@
 Line 1
 Line 2
 
-Realization: the file went back to the old version but the commit history stayed, with an extra commit added.
+Realization: The file went back to the old version but the commit history stayed, with an extra commit added.
