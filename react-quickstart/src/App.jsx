@@ -1,17 +1,20 @@
 import './App.css'
 
-function MyButton() {
+function AboutMePage() {
   return (
-    <button>Click mo ko</button>
+    <>
+      <h1>About Me</h1>
+      <p>Hi there.<br />Whatchu doin'?</p>
+    </>
   );
 }
 
+
 function App() {
   return (
-    <div>
-      <h1>Welcome to my space!</h1>
-      <MyButton />
-    </div>
+    <>
+      <AboutMePage />
+    </>
   )
 }
 
