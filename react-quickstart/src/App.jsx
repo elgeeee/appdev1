@@ -1,33 +1,29 @@
 import './App.css'
 import { useState } from 'react'
 
-function MyButton() {
-  const [count, setCount] = useState(0)
-
-  function handleClick() {
-    setCount(count + 1)
-
-    alert('Oops, You clicked me!');
-  }
-
+function MyButton({ count, onClick }) {
   return (
-    <button onClick={handleClick}>
-      {count === 0 
-        ? "Click me now!" 
-        : count === 1
-        ? "Oh, you clicked me once!"
-        : `Woah, you just clicked me ${count} times!`}
+    <button onClick={onClick}>
+      Clicked {count} times
     </button>
   );
 }
 
 
 function App() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+	setCount(count + 1);
+  }
+
   return (
-  <>
-    <MyButton />
-  </>
-  )
+	<div>
+  	<h1>Counters that update together</h1>
+  	<MyButton count={count} onClick={handleClick} />
+  	<MyButton count={count} onClick={handleClick} />
+	</div>
+  );
 }
 
 export default App
