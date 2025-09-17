@@ -1,40 +1,26 @@
 import './App.css'
 import { useState } from 'react'
 
-function AdminPanel(){
-  return (
-    <h1>Admin Panel</h1>
-  )
-}
-
-function LoginForm(){
-  return (
-    <h1>Login Form</h1>
-  )
-}
+const products = [
+  { title: 'Cabbage', isFruit: false, id: 1 },
+  { title: 'Banana', isFruit: true, id: 2 },
+  { title: 'Mango', isFruit: true, id: 3 },
+];
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
-  
-  let content;
+  const listItems = products.map(product =>
+  <li 
+    key={product.id}
+    style={{
+      color: product.isFruit ? 'magenta' : 'white'
+    }}
+  >
+    {product.title}
+  </li>
+);
 
-  if (isLoggedIn) {
-    content = <AdminPanel />;
-  } else {
-    content = <LoginForm />;
-  }
-
-  
   return (
-    <div>
-    {content}
-    
-    {isLoggedIn ? (
-      <AdminPanel />
-    ) : (
-      <LoginForm />
-    )}
-    </div>
+    <ul>{listItems}</ul>
   )
 }
 
