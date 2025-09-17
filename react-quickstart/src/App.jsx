@@ -3,8 +3,8 @@ import './App.css'
 function AboutMePage() {
   return (
     <>
-      <h1>About Me</h1>
-      <p>Hi there.<br />Whatchu doin'?</p>
+      <img className="avatar" src="https://i.imgur.com/kv5QbU7.jpeg"
+      />
     </>
   );
 }
