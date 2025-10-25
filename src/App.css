@@ -56,3 +56,45 @@
 .read-the-docs {
   color: #888;
 }
+
+article {
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+li img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+}
+
+p b {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
