@@ -1,0 +1,1 @@
+Realization: Macro commits are not clear because many changes are in one commit. Micro commits are clearer since each change has its own commit. 

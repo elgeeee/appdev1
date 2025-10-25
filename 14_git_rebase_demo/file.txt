@@ -1,0 +1,1 @@
+Realization: After rebasing, the commit history looked straight and clean because the feature commits were put on top of main.

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Activity</title>
+</head>
+<body>
+  <button id="colorBtn">Click Me</button>
+  <p id="colorText"></p>
+  <p id="delayedMessage"></p>
+
+  <script>
+    document.getElementById("colorBtn").addEventListener("click", function() {
+      let favColor = prompt("What is your favorite color?")
+      document.body.style.backgroundColor = favColor
+      document.getElementById("colorText").innerText = "Your favorite color is " + favColor
+    })
+
+    setTimeout(() => {
+      document.getElementById("delayedMessage").innerText = "This message appears after 2 seconds"
+    }, 2000)
+  </script>
+</body>
+</html>

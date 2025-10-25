@@ -1,0 +1,1 @@
+Realization: After merging, the feature branch joined main but the history showed a merge commit, so it looked like branches came together.
